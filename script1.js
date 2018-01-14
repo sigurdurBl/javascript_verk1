@@ -1,9 +1,11 @@
 //code for hello world
+//verkefni 1
 var locacion = document.getElementById("demo");
 locacion.innerHTML = "Hello world!";
 
 
 //code for to do list
+//verkefni 2
 var item1 = document.getElementById("demo1");
 item1.innerHTML = "bread";
 var item2 = document.getElementById("demo2")
@@ -13,6 +15,7 @@ item3.innerHTML = "milk";
 var item4 = document.getElementById("demo4")
 item4.innerHTML = "chicken"
 //code to add in to to do list
+//verkefni 3
 function todoList() {
     var item    = document.getElementById('todoInput').value
     var text    = document.createTextNode(item)
